@@ -1,0 +1,25 @@
+# Created at 2019-10-18T19:43:51.901
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2019-10-18T19:43:51.916
+Unexpected IOException with stream: Hibernate: SELECT stage as label, COUNT(*) as value FROM project GROUP BY stage
+
+
+# Created at 2019-10-18T19:43:51.937
+Unexpected IOException with stream: Hibernate: SELECT e.first_name as firstName, e.last_name as lastName, COUNT(pe.employee_id) as projectCount FROM employee e left join project_employee pe ON pe.employee_id = e.employee_id GROUP BY e.first_name, e.last_name ORDER BY 3 DESC
+
+
+# Created at 2019-10-18T19:43:52.307
+Unexpected IOException: 6,1,com.jrp.pma.controllers.HttpRequestTest,homePageReturnsVersionNumberCorrectly_thenSuccess(com.jrp.pma.controllers.HttpRequestTest),null,null,null
+
+
+# Created at 2019-10-18T19:43:52.307
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.jrp.pma.controllers.HttpRequestTest,null,null,null
+
+

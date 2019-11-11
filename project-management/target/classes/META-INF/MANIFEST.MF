@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: imtiazahmad
+Build-Jdk: 12
+Implementation-Title: project-management
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.jrp
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/project-management
+Created-By: Maven Integration for Eclipse
+
